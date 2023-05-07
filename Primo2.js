@@ -28,7 +28,7 @@ for (let i = 0; i < array.length; i++) {
     try{
         const primo2 = primo(array[i]);
         if(primo2){
-            // console.log('Es primo:', array[i]);
+            
             numerosprimos.push(array[i]);
              }
     }catch(err){
